@@ -64,7 +64,7 @@ type FormValues = z.infer<typeof formSchema>;
 export default function PaymentDetailsRoute() {
     const router = useRouter()
 
-    let defaultValues: FormValues = {
+    const defaultValues: FormValues = {
         option: 'visa',
         cardNumber: '',
         expiry: '',

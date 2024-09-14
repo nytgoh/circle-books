@@ -1,4 +1,4 @@
-﻿import {Book} from "@/components/models/book";
+﻿import {Book} from "@/models/book";
 import React from "react";
 import BookListing from "@/components/ui/book-listing";
 

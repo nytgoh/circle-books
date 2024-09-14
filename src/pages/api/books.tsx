@@ -1,7 +1,5 @@
-﻿// pages/api/books.ts
-
-import {NextApiRequest, NextApiResponse} from 'next';
-import {Book} from "@/components/models/book";
+﻿import {NextApiRequest, NextApiResponse} from 'next';
+import {Book} from "@/models/book";
 
 const EXTERNAL_API_URL = "https://mocki.io/v1/5436fc35-0560-45dc-ac04-25f56ad392e3";
 

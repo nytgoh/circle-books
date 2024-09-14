@@ -1,4 +1,3 @@
-import type {Metadata} from "next";
 import "./globals.css";
 
 import {Inknut_Antiqua} from 'next/font/google'

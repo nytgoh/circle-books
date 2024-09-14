@@ -56,7 +56,7 @@ export default function ConfirmationRoute() {
 
     const onSubmit = async () => {
         try {
-            let response = await fetch(`/api/checkout`, {
+            const response = await fetch(`/api/checkout`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
