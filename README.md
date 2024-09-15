@@ -22,3 +22,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Preview
+![image](https://github.com/user-attachments/assets/0a24a4bd-ab85-4fa1-a598-d040a44ce4f9)
