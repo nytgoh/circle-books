@@ -10,7 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need npm/node installed to run this project.
 
-
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -25,6 +24,11 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ![image](https://github.com/user-attachments/assets/0a24a4bd-ab85-4fa1-a598-d040a44ce4f9)
+
+## Design
+
+Designs were prototyped in Figma and can be [viewed here](https://www.figma.com/proto/9QRt6dONYAiEnCHtmI6cUu/Circle---Frontend-Challenge?node-id=19-1462&t=pZbOHM7XAcUSxmZH-1). 
+
 
 ## Deployment
 
