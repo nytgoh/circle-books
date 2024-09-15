@@ -16,7 +16,7 @@ export const BookListing: React.FC<BookListingProps> = ({book}) => {
 
     return (
         <>
-            <Card className="w-32">
+            <Card className="w-36">
                 {/* Make CardHeader the Dialog Trigger */}
                 <Dialog>
                     <DialogTrigger asChild>

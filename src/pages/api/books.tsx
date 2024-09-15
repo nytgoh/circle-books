@@ -10,17 +10,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             throw new Error("Failed to fetch books");
         }
 
-        const books = await response.json();
-
+        const result = await response.json();
+        
         // Get the searchText query param
         const {searchText} = req.query;
 
+        const books = result.books;
         let filteredBooks = books;
 
         if (searchText) {
             const searchLower = (searchText as string).toLowerCase();
 
-            filteredBooks = filteredBooks.filter((book: Book) =>
+            filteredBooks = books.filter((book: Book) =>
                 book.author.toLowerCase().includes(searchLower) ||
                 book.title.toLowerCase().includes(searchLower)
             );
